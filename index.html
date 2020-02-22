@@ -2,33 +2,27 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Hackagong - Boot Up Sequence Initialized</title>
+        <title>Hackagong 2020</title>
 
         <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
         <link rel="manifest" href="assets/icons/site.webmanifest">
-
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:800&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
 
-        <div class="img logo"></div>
-        <div class="img text">
-            <div id="dot"></div>
-        </div>
+        <h1>REDIRECTING TO EVENTBRITE...</h1>
 
         <script>
-            let flash = function() {
-                let dot = document.getElementById("dot");
-                dot.style.display = (dot.style.display === "none") ? "block" : "none";
+            window.onload = function() {
+                // similar behavior as clicking on a link
+                window.location.href = "https://www.eventbrite.com.au/e/hackagong-2020-tickets-94299982787";
             };
-
-            setInterval(flash, 800);
         </script>
 
     </body>
